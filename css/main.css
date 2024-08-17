@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Matemasie&family=Sankofa+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Gupter:wght@400;500;700&family=Matemasie&family=Sankofa+Display&display=swap');
+
+:root{
+    --primary-color: #243763;
+    --socondary-color: #FF6E31;
+    --primary-font: "Grey-Qo", sans-serif;
+    --secondary-font: "Matemasie", sans-serif;
+}
+
+h1{
+    color: var(--primary-color);
+}
+h2{
+    color: var(--primary-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 1rem;
+}
+
+.navbar-title{
+    color: white;
+}
